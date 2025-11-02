@@ -60,3 +60,13 @@ npx hardhat ignition deploy --network sepolia ignition/modules/Counter.ts
 
 # For mise 
 Invoke-Expression ((mise activate pwsh) | Out-String)
+
+
+# For Git
+git init
+git remote add origin https://github.com/your-username/your-repo-name.git
+git remote -v
+git add .
+git commit -m "Initial commit"
+git push -u origin main
+
